@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as styles from './favouritesListBox.scss';
-import { IItemBoxProps } from '../itemBox/ItemBox';
+import { IItemBoxProps } from '../itemBox/itemBox';
 import { ListBox } from '../listBox/listBox';
 
 export interface IFavouritesListBoxStateProps {

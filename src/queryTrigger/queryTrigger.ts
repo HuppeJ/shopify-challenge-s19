@@ -1,5 +1,5 @@
 import * as $ from 'jquery';
-import { IItemBoxProps } from '../itemBox/ItemBox';
+import { IItemBoxProps } from '../itemBox/itemBox';
 
 export interface ResponseResult {
     body: string;

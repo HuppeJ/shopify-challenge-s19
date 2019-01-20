@@ -1,5 +1,5 @@
 import { IWasteLookupAppPayload, WasteLookupAppActions } from './wasteLookupAppActions';
-import { IItemBoxOwnProps } from '../itemBox/ItemBox';
+import { IItemBoxOwnProps } from '../itemBox/itemBox';
 import { IReduxAction } from '../utils/ReduxInterfaces';
 
 export interface IWasteLookupAppState {

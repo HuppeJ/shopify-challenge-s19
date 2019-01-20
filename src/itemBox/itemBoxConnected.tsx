@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { IItemBoxStateProps, IItemBoxDispatchProps, IItemBoxOwnProps, IItemBoxProps, ItemBox } from './ItemBox';
+import { IItemBoxStateProps, IItemBoxDispatchProps, IItemBoxOwnProps, IItemBoxProps, ItemBox } from './itemBox';
 import { addFavourite, removeFavourite } from '../wasteLookupApp/wasteLookupAppActions';
 import { IDispatch } from '../utils/ReduxInterfaces';
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SearchBar } from '../searchBar/searchBar';
 import { ListBox } from '../listBox/listBox';
-import { IItemBoxProps } from '../itemBox/ItemBox';
+import { IItemBoxProps } from '../itemBox/itemBox';
 import { QueryTrigger } from '../queryTrigger/queryTrigger'
 
 export interface ISearchEngineProps { }

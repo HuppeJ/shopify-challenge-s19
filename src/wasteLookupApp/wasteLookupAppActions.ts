@@ -1,4 +1,4 @@
-import { IItemBoxOwnProps } from "../itemBox/ItemBox";
+import { IItemBoxOwnProps } from "../itemBox/itemBox";
 
 export const WasteLookupAppActions = {
     add: 'ADD_FAVOURITE',

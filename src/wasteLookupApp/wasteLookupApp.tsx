@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as styles from './wasteLookupApp.scss';
 import { SearchEngine } from '../searchEngine/searchEngine';
-import { IItemBoxProps } from '../itemBox/ItemBox';
+import { IItemBoxProps } from '../itemBox/itemBox';
 import { FavouritesListBoxConnected } from '../favouritesListBox/favouritesListBoxConnected';
 
 export interface IWasteLookupAppStateProps {

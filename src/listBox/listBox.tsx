@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as styles from './listBox.scss';
-import { IItemBoxProps } from '../itemBox/ItemBox';
+import { IItemBoxProps } from '../itemBox/itemBox';
 import { ItemBoxConnected } from '../itemBox/itemBoxConnected';
 
 export interface IListBoxProps {
