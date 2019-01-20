@@ -20,19 +20,13 @@ export class ListBox extends React.Component<IListBoxProps> {
         favouritesCanBeRemoved: false
     };
 
-    constructor(props: IListBoxProps) {
-        super(props);
-    }
-
     private getItems(): React.ReactNode {
-        const canBeAdded: boolean = this.props.favouritesCanBeAdded;
-        const canBeRemoved: boolean = this.props.favouritesCanBeRemoved;
         const items = this.props.items.map(item => (
             <ItemBoxConnected
                 key={item.title}
                 {...item}
-                favouritesCanBeAdded={canBeAdded}
-                favouritesCanBeRemoved={canBeRemoved} 
+                favouritesCanBeAdded={this.props.favouritesCanBeAdded}
+                favouritesCanBeRemoved={this.props.favouritesCanBeRemoved} 
             />
         ));
 

@@ -1,15 +1,13 @@
 {
-  "name": "shopify-challenge2",
+  "name": "shopify-challenge-s19",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "test",
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jeremie Huppe",
   "devDependencies": {
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
