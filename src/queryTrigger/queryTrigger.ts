@@ -17,8 +17,8 @@ export class QueryTrigger {
             const match = result.keywords.toUpperCase().indexOf(input) !== -1;
             return match ? this.parseResult(result) : null;
         });
-
-        return filteredResults;
+        
+        return filteredResults.reverse();
     }
 
     private async getResults(): Promise<ResponseResult[]> {

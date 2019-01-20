@@ -27,7 +27,7 @@ export class FavouritesListBox extends React.Component<IFavouritesListBoxProps, 
 
     render() {
         return (
-            <div>
+            <div className={styles.container}>
                 <div className={styles.title}>
                     Favourites
                 </div>
