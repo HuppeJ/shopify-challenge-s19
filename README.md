@@ -2,7 +2,9 @@
 
 The goal of this challenge was to build a web app to search for waste items using the Toronto Waste Wizard database, and save frequently used ones.
 
-See it live : https://infallible-goldberg-47a8dc.netlify.com/
+See it live: https://infallible-goldberg-47a8dc.netlify.com/
+
+See also my free trial Shopify store (password=`"wisdom"`): https://a-piece-of-wisdom.myshopify.com/
 
 ## Getting Started
 
